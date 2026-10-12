@@ -1,0 +1,84 @@
+<h1>ELIZABETE NĀK kušs..</h1>
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mana spēle</title>
+<style>
+body { font-family: Arial, sans-serif; max-width: 680px; margin: 24px auto; padding: 16px; line-height: 1.6; }
+button, input { font: inherit; padding: 10px; margin: 4px; }
+button { cursor: pointer; }
+img { max-width: 100%; height: auto; }
+[hidden] { display: none !important; }
+
+</style>
+</head>
+<body>
+  <li>Tu esi Elizabetes mājā."Kā es te nonācu?"Tavs mērķis ir izlavīties no mājas nepamanīti.Elizabetei ir laba dzirde.Pārliecinies ka staiga klusi un neapgāz viņas vāzes!Ja tevi pamanis tev būs GG.Spēle sāksies NOJAUNA.</li>
+</ul>
+<h2>elizabete tevi meklēs ja tevi sadzirdēs</h2>
+<p><strong>uzmanies:</strong>elizabete meiģinās tevi atrast</p>
+<ul>
+  <li>slēpies skapī vai aiz durvīm</li>
+  <li>Izvairies no  ELIZABETES</li>
+</ul>
+<section id="sakums">
+  <h2>Vai esi gatavs?</h2>
+  <button onclick="paraditSpeli()">Sākt spēli</button>
+</section>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mana spēle</title>
+<style>
+body { font-family: Arial, sans-serif; max-width: 680px; margin: 24px auto; padding: 16px; line-height: 1.6; }
+button, input { font: inherit; padding: 10px; margin: 4px; }
+button { cursor: pointer; }
+img { max-width: 100%; height: auto; }
+[hidden] { display: none !important; }
+
+</style>
+</head>
+<body>
+
+</section>
+<section id="laukums" hidden>
+  <h2>Vai esi gatavs?</h2>
+  <p>Izkļūsti no Elizabetes mājas</p>
+  <p>GOOD LUCK!</p>
+  <button onclick="paraditSakumu()">Atpakaļ</button>
+</section>
+<script>
+// Gatavā palīdzība pogām. Šodien maini lapas tekstu un izvietojumu.
+function paraditSpeli() {
+  document.getElementById("sakums").hidden = true;
+  document.getElementById("laukums").hidden = false;
+}
+function paraditSakumu() {
+  document.getElementById("sakums").hidden = false;
+  document.getElementById("laukums").hidden = true;
+}
+</script>
+</body>
+</html>
+<h1>Divi spēles pogas varianti</h1>
+<section>
+  <h2>A variants</h2>
+  <button onclick="document.getElementById('atbilde').textContent='Spēle sākta!'">Spied šeit</button>
+</section>
+<section>
+  <h2>B variants</h2>
+  <button onclick="document.getElementById('atbilde').textContent='Spēle sākta!'">Sākt spēli</button>
+</section>
+<p id="atbilde">Izmēģini abas pogas.</p>
+<h2>Mana izvēle</h2>
+</body>
+</html>
